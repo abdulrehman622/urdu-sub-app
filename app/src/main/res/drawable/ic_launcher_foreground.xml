@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Video Player Screen Body -->
+    <path
+        android:fillColor="#1E293B"
+        android:strokeColor="#818CF8"
+        android:strokeWidth="2.5"
+        android:strokeLineJoin="round"
+        android:pathData="M27,27 h54 a7,7 0 0,1 7,7 v38 a7,7 0 0,1 -7,7 h-54 a7,7 0 0,1 -7,-7 v-38 a7,7 0 0,1 7,-7 z" />
+
+    <!-- Screen inner dark gradient -->
+    <path android:pathData="M28,28 h52 a6,6 0 0,1 6,6 v36 a6,6 0 0,1 -6,6 h-52 a6,6 0 0,1 -6,-6 v-36 a6,6 0 0,1 6,-6 z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="28"
+                android:startY="28"
+                android:endX="80"
+                android:endY="76"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#312E81" />
+                <item android:offset="1.0" android:color="#0F172A" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glowing Play Icon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48,41 l15,9 l-15,9 z" />
+
+    <!-- Musical note / audio wave at top-right -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M71,33 c0,0 2,-2 4,-1 c2,1 2,4 1,5"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round" />
+
+    <!-- Subtitle / Caption Pill Badge at bottom -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M24,73 h60 a5,5 0 0,1 5,5 v10 a5,5 0 0,1 -5,5 h-60 a5,5 0 0,1 -5,-5 v-10 a5,5 0 0,1 5,-5 z" />
+
+    <!-- Urdu Text Stylized Strokes on Caption Badge -->
+    <!-- Dot of Nuqta -->
+    <path
+        android:fillColor="#1E1B4B"
+        android:pathData="M37,77 a1.5,1.5 0 1,0 0.1,0 z" />
+    <!-- Urdu Nastaliq Swash wave 1 -->
+    <path
+        android:strokeColor="#1E1B4B"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M33,83 Q38,80 43,84 T53,82" />
+    <!-- Urdu Nastaliq Swash wave 2 -->
+    <path
+        android:strokeColor="#1E1B4B"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M57,83 Q65,79 75,84" />
+    <!-- Nuqta accent -->
+    <path
+        android:fillColor="#1E1B4B"
+        android:pathData="M67,77 a1.5,1.5 0 1,0 0.1,0 z" />
+</vector>

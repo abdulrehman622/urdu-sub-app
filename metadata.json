@@ -1,0 +1,6 @@
+{
+  "name": "UrduSub - Video Captions",
+  "description": "AI-powered video caption generator, editor & styler with Urdu Nastaliq, RTL support, karaoke animations, and hardcoded video export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
